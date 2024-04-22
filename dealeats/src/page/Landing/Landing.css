@@ -1,0 +1,93 @@
+
+h1 {
+    font-size: 4em;
+    color: black;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding-bottom: 30px;
+    margin: 0;
+}
+
+p {
+    font-size: 1.2em;
+    color: #666; 
+}
+
+
+
+.land-pasta-container {
+    width: 100%;
+}
+
+.land-pasta {
+    width: 100%; 
+    max-width: 100%; 
+    height: 900px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.pastaa img {
+    padding-top: 70px;
+    padding-bottom: 30px;
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+.overlay-text {
+    position: absolute;
+    bottom: 15px;     
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; /* Change color as needed */
+    font-size: 40px;
+    z-index: 1;
+}
+
+
+.button-container {
+    display: flex;
+    gap: 50px; /* Adjust the space between buttons */
+    padding-bottom: 50px;
+    padding-left: 78px;
+
+}
+
+.button {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.button img {
+    width: 400px;
+    height: 500px;
+    transition: filter 0.4s;
+}
+
+.button:hover img,
+.button:focus img {
+    filter: brightness(0.7); /* Darken the image on hover */
+}
+
+.button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.button:hover::before{
+    height:10px;
+    width:10px;
+}
+
+
