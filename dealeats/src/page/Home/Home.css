@@ -1,30 +1,48 @@
-
-.land-restaurant-container {
+.container {
+    position: relative;
     width: 100%;
+    height: 100vh;
 }
 
-.land-restaurant {
-    width: 100%; 
-    max-width: 100%; 
-    height: 900px;
-    display: flex; 
-    justify-content: center; 
-    align-items: center;
-}
 
-.restaurant img {
+
+.background-image img {
     padding-top: 70px;
     padding-bottom: 30px;
     width: 100%;
     height: 100%;
+    z-index: -1;
     
 }
+.background-image {
+    width: 100%; 
+    max-width: 100%; 
+    height: 100%;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    
 
-h1 {
-    font-size: 4em;
-    color: black;
-    text-align: left;
-    padding-left: 10px;
-    padding-top: 300px;
-    margin: 0;
 }
+
+.text-container {
+    position: absolute;
+    top: 60%; 
+    right: 47%;
+    transform: translateY(-50%);
+    color: white;
+
+}
+
+.heading {
+    text-align: left;
+    padding-left: 40px; 
+    color: white; 
+    font-size: 5em;
+
+}
+
+
+
+
+

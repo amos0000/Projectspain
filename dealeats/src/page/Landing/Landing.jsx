@@ -1,6 +1,4 @@
 import HeaderComponent from '../../components/header/Header';
-import Header from '../../components/header/Header';
-
 import './Landing.css';
 
 

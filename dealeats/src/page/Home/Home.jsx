@@ -1,27 +1,20 @@
-
+import './Home.css';
 import Header from "../../components/header/Header"
+
 
 function Home(){
     return (
         <>
             <Header/>
            
-            <div>
-            <h1>
-            BROWSE RESTAURANTS, RESERVE AND EAT CHEAP.
-            </h1>
-            <div className="land-r">
-
-            <div className="land-restaurant">
-
-            <div className="restaurant">
-                     <img src="land.jpg" alt="restaurant"/>
+            <div className="container">
+            <div className="background-image">
+            <img src="land.jpg" alt="Land"/>
             </div>
-        </div>
-            
-                
-            </div> 
+            <div className="text-container">
+                <h1 className="heading">BROWSE RESTAURANTS, RESERVE AND EAT CHEAP.</h1>     
             </div>
+        </div>  
         </>
     )
 }
