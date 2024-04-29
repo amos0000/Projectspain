@@ -11,7 +11,9 @@ const HeaderComponent = () => {
         <header className="header">
 
             <div className="logo">
+            <a href='/'> 
                 <img src="dealeatslogo.png" alt="dealeatslogo" />
+                </a>
             </div>
 
             
